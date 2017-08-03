@@ -4,3 +4,6 @@ The [Practice Python web site](http://www.practicepython.org/) provides exercise
   
 **IDE:** PyDev  
 **Python Version:** 3.6
+
+**About Skipped Exercises:**  
+Solution to 10 is almost identical to what I submitted for exercise 5.
