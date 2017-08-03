@@ -6,5 +6,7 @@ The [Practice Python web site](http://www.practicepython.org/) provides exercise
 **Python Version:** 3.6
 
 **About Skipped Exercises:**  
-Solution to 10 is almost identical to what I submitted for exercise 5.
-Exercises 22 and 23 are basic 'read from file' exercises.
+Solution to 10 is almost identical to what I submitted for exercise 5.  
+Exercises 22 and 23 are basic 'read from file' exercises.  
+Exercise 25 uses basic binary search to guess number.  
+Exercise 26 uses basic if/elif/else to find max of 3 values.
