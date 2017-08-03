@@ -7,3 +7,4 @@ The [Practice Python web site](http://www.practicepython.org/) provides exercise
 
 **About Skipped Exercises:**  
 Solution to 10 is almost identical to what I submitted for exercise 5.
+Exercises 22 and 23 are basic 'read from file' exercises.
