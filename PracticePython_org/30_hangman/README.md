@@ -11,4 +11,4 @@ Optional additions:
 1. When the player wins or loses, let them start a new game.  
 1. Rather than telling the user "You have 4 incorrect guesses left", display some picture art for the Hangman. This is challenging - do the other parts of the exercise first!  
   
-NOTE: Program randomly selects line from a SOWPODS dictionary that is saved locally.
+NOTE: Program randomly selects line from a [SOWPODS dictionary](http://norvig.com/ngrams/sowpods.txt) that is saved locally.
