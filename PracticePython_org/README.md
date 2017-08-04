@@ -11,4 +11,5 @@ Exercises 22 and 23 are basic 'read from file' exercises.
 Exercise 25 uses basic binary search to guess number.  
 Exercises 26, 27, and 29 combined into exercise 26.  
 Exercise 28 uses basic if/elif/else to find max of 3 values.  
-Combined exercises 30, 31, and 32 into exercise 30.
+Combined exercises 30, 31, and 32 into exercise 30.  
+Exercises 33 - 36 are basic exercises w/ information from dictionary and json objects, and bokeh for plotting (which I hope to into but w/ other projects).
