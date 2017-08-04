@@ -3,8 +3,9 @@
 The [Practice Python web site](http://www.practicepython.org/) provides exercises to challenge aspiring python developers. I will complete these exercises and post my solutions here.  
   
 **IDE:** PyDev  
-**Python Version:** 3.6
-
+**Python Version:** 3.6  
+**Dates:** Jun 24, 2017 - Jul 08, 2017  
+  
 **About Skipped Exercises:**  
 Solution to 10 is almost identical to what I submitted for exercise 5.  
 Exercises 22 and 23 are basic 'read from file' exercises.  
