@@ -17,7 +17,7 @@ Each zip file contains a single csv file that, in turn, contains anywhere betwee
 Citi Bike should purchase for each gender.  
   
 ## num_bikes_per_gender.py  
-**Modules used:** os, os.path, ZipFile, csv, datetime  
+**Modules used:** os, ZipFile, csv, datetime  
 **Packages used:** matplotlib.pyplot, numpy  
 **Source Code Checker:** flake8  
   
