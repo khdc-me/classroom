@@ -31,3 +31,4 @@ Program then find the number of male and female riders whose records:
   
 ### matplotlib  
 After gathering counts and calculating percentages, matplotlib is called to display the results.  
+![Number of Male and Female Bicycles to Purchase](02_citi-bikes-smf.png)
