@@ -38,7 +38,7 @@ def unzip_files():
 def get_num_mf(fn, kt):
     """Return number of male/female riders ages 50 - 90 in specified csv file.
 
-    Keword arguments:
+    Keyword arguments:
     fn -- filename (csv file)
     kt -- key text (are keys capitalized? T/F)
 
