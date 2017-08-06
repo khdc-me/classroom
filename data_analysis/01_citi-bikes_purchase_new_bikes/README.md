@@ -1,6 +1,17 @@
 # Citi Bikes Needs to Purchase New Bicycles  
-**Situation:** City Bikes would like to purchase 700 bicycles, primarily to service riders who are 50 years of age or older.
-The bicycles being considered for purchase are gender-specific (male/female).  
+## About Citi Bike  
+According to the [Citi Bike web site](https://www.citibikenyc.com/), they are "the nation's largest
+bike share program." They have "10,000 bikes and 600 stations across Manhattan, Brooklyn, Queens and
+Jersey City."  
+  
+The Citi Bike organization provides [trip history data](https://www.citibikenyc.com/system-data) to
+the public.
+
+**About the Data:** Data for this program is from 2016 and From Citi Bike's [Index of bucket "tripdata"](https://s3.amazonaws.com/tripdata/index.html), MANUALLY downloaded all 2016 zip files, as site prohibits automated fetching.
+Each zip file contains a single csv file that, in turn, contains anywhere between ~1/2M amd 2M records.
+
+**Situation:** City Bikes would like to purchase 700 bicycles, primarily to service riders who are
+50 years of age or older. The bicycles being considered for purchase are gender-specific (male/female).  
   
 **Task:** Suggest the number of bicycles that Citi Bike should purchase for each gender.  
   
