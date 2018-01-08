@@ -18,7 +18,31 @@ import sys
 from __future__ import unicode_literals
 from .conf.development import *
 
-BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+BASE_DIR = os.path.abspath(
+            os.path.join(os.path.dirname(__file__), "..")
+)
+
+MEDIA_ROOT = os.path.join(BASE_DIR, "myproject", "media")
+
+STATIC_ROOT = os.path.join(BASE_DIR, "myproject", "static")
+
+STATICFILES_DIR = (
+            os.path.join(BASE_DIR, "myproject", "site_static"),
+)
+
+TEMPLATE_DIRS = (
+            os.path.join(BASE_DIR, "myproject", "templates"),
+)
+
+LOCALE_PATHS = (
+            os.path.join(BASE_DIR, "locale"),
+)
+
+FILE_UPLOAD_TEMP_DIR = os.path.join(
+            BASE_DIR, "myproject", "tmp"
+)
+
+
 
 EXTERNAL_LIBS_PATH = os.path.join(
     BASE_DIR, "externals", "libs"
