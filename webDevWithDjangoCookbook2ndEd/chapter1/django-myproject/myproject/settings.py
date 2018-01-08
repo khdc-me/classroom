@@ -16,11 +16,17 @@ import sys
 
 # coding: UTF-8
 from __future__ import unicode_literals
+
+from django.utils.translation import ugettext_lazy as _
+
 from .conf.development import *
+from utils.misc import get_git_changeset
 
 BASE_DIR = os.path.abspath(
             os.path.join(os.path.dirname(__file__), "..")
 )
+
+STATIC_URL = "/static/%s/" % get_git_changeset(BASE_DIR)
 
 MEDIA_ROOT = os.path.join(BASE_DIR, "myproject", "media")
 
@@ -42,8 +48,6 @@ FILE_UPLOAD_TEMP_DIR = os.path.join(
             BASE_DIR, "myproject", "tmp"
 )
 
-
-
 EXTERNAL_LIBS_PATH = os.path.join(
     BASE_DIR, "externals", "libs"
 )
@@ -54,6 +58,14 @@ EXTERNAL_APPS_PATH = os.path.join(
 
 sys.path = ["", EXTERNAL_LIBS_PATH, EXTERNAL_APPS_PATH] + \
     sys.path
+
+MYAPP1_STATUS_CHOICES = (
+        ("imported", _("Imported")),
+        ("draft", _("Draft")),
+        ("published", _("Published")),
+        ("not_listed", _("Not Listed")),
+        ("expired", _("Expired")),
+)
 
 
 # Quick-start development settings - unsuitable for production
