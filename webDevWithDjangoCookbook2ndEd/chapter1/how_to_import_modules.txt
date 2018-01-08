@@ -1,0 +1,6 @@
+Import libraries or modules as follows:
+System libraries in default Python install
+3rd party libraries
+Django modules from Django framework
+Django apps for 3rd party & local apps
+Current-app modules for relative imports from current app
