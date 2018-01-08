@@ -12,8 +12,23 @@ https://docs.djangoproject.com/en/1.8/ref/settings/
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 import os
+import sys
+
+# coding: UTF-8
+from __future__ import unicode_literals
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+
+EXTERNAL_LIBS_PATH = os.path.join(
+    BASE_DIR, "externals", "libs"
+)
+
+EXTERNAL_APPS_PATH = os.path.join(
+    BASE_DIR, "externals", "apps"
+)
+
+sys.path = ["", EXTERNAL_LIBS_PATH, EXTERNAL_APPS_PATH] + \
+    sys.path
 
 
 # Quick-start development settings - unsuitable for production
