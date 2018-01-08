@@ -16,7 +16,6 @@ import sys
 
 # coding: UTF-8
 from __future__ import unicode_literals
-from .conf.development import *
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
@@ -92,10 +91,8 @@ WSGI_APPLICATION = 'myproject.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.mysql',
-        'NAME': "myproject",
-        'USER': "username",
-        'PASSWORD': "password",
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
     }
 }
 
