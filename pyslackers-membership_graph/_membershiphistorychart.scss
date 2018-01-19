@@ -1,0 +1,152 @@
+#member_history_chart {
+  width: 1100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#member_history_chart ol {
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 0;
+  width: 1100px;
+  padding: 215px 0 0 0;
+  transition: all 1s;
+}
+
+#member_history_chart ol li {
+  position: relative;
+  display: inline-block;
+  list-stype-type: none;
+  width: 220px;
+  height: 3px;
+  background: #dae1ee;
+}
+
+#member_history_chart ol li::after{
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 110px;
+  bottom: 0;
+  width: 12px;
+  height: 12px;
+  transform: translateY(-50%);
+  border-radius: 50%;
+  background: #0071bc;
+}
+
+#firstRecord {
+  position: absolute;
+  top: -10px;
+  left: 25%;
+  width: 125px;
+  padding: 10px;
+  background: #0071bc;
+  wite-space: normal;
+  text-align: center;
+  transform: translateY(-100%);
+}
+
+#secondRecord {
+  position: absolute;
+  top: -45px;
+  left: 25%;
+  width: 125px;
+  padding: 10px;
+  background: #0071bc;
+  wite-space: normal;
+  text-align: center;
+  transform: translateY(-100%);
+}
+
+#thirdRecord {
+  position: absolute;
+  top: -80px;
+  left: 25%;
+  width: 125px;
+  padding: 10px;
+  background: #0071bc;
+  wite-space: normal;
+  text-align: center;
+  transform: translateY(-100%);
+}
+
+#fourthRecord {
+  position: absolute;
+  top: -115px;
+  left: 25%;
+  width: 125px;
+  padding: 10px;
+  background: #0071bc;
+  wite-space: normal;
+  text-align: center;
+  transform: translateY(-100%);
+}
+
+#lastRecord {
+  position: absolute;
+  top: -150px;
+  left: 25%;
+  width: 125px;
+  padding: 10px;
+  background: #0071bc;
+  wite-space: normal;
+  text-align: center;
+  transform: translateY(-100%);
+}
+
+#member_history_chart ol li div::before {
+  top: 100%;
+  border-width: 1px 1px 0 0;
+  border-color: white transparent transparent transparent;
+}
+
+#firstCount {
+  font-size: 16pt;
+}
+
+#firstDate {
+  font-size: 12pt;
+}
+
+#secondCount {
+  font-size: 18pt;
+}
+
+#secondDate {
+  font-size: 14pt;
+}
+
+#thirdCount {
+  font-size: 20pt;
+}
+
+#thirdDate {
+  font-size: 16pt;
+}
+
+#fourthCount {
+  font-size: 22pt;
+}
+
+#fourthDate {
+  font-size: 18pt;
+}
+
+#lastCount {
+  font-size: 24pt;
+}
+
+#lastDate {
+  font-size: 20pt;
+}
+
+.chartCount {
+  color: #ffff00;
+  font-weight: bold;
+}
+
+.chartDate {
+  margin-top: 10px;
+  color: #f0f0f0;
+}
