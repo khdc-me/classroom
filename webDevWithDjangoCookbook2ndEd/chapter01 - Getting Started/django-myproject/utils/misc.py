@@ -1,4 +1,4 @@
-# Coding: UTF-8
+# -*- coding: UTF-8 -*-
 from __future__ import unicode_literals
 import subprocess
 from datetime import datetime

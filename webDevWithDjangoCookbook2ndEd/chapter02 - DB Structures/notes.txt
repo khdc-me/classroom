@@ -1,0 +1,2 @@
+First thing to do when starting new app: create models that represent DB structure
+
