@@ -1,0 +1,1 @@
+Just playing w/ recipes from "Python GUI Programming Cookbook Second Edition" by Burkhard A. Meier 
