@@ -1,2 +1,16 @@
 First thing to do when starting new app: create models that represent DB structure
 
+mixin class is interface w/ implemented features
+    - can be used in Django models for reusing generic functionalities in
+        different models, multiple times.
+    - keep model mixins in utils module
+        - if creating reusable app, keep in reusable app (ie: base.py)
+
+All fields of abstract classes are saved in same DB tbl as fields of extending
+    model
+
+get_absolute_url() method can be used in templates to preview the saved object
+    - good practice to define this method for every model that has its own pg
+    - returns URL path, not full URL
+
+Always overwrite the get_url_path() method
