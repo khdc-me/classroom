@@ -1,3 +1,0 @@
-Will have better control of GUI layout embedding frames w/in frames
-
-Notebook widget is tool that allows adding tabbed controls
