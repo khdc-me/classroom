@@ -53,6 +53,10 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    # Django REST Framework
+    'rest_framework',
+    # Games Application
+    'gamesapi.games.apps.GamesConfig',
 ]
 
 MIDDLEWARE = [
