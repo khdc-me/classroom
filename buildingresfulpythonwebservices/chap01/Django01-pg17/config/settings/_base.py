@@ -17,7 +17,7 @@ import json
 from django.core.exceptions import ImproperlyConfigured
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
-BASE_DIR = pathlib.Path(__file__).parent.parent.parent
+BASE_DIR = Path(__file__).parent.parent.parent
 
 
 # Quick-start development settings - unsuitable for production
