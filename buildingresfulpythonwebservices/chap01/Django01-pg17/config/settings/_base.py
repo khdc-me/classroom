@@ -56,7 +56,7 @@ INSTALLED_APPS = [
     # Django REST Framework
     'rest_framework',
     # Games Application
-    'gamesapi.games.apps.GamesConfig',
+    'gamesapi.games',
 ]
 
 MIDDLEWARE = [
