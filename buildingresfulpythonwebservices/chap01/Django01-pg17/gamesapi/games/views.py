@@ -10,7 +10,7 @@ from gamesapi.games.serializers import GameSerializer
 @api_view(['GET', 'POST'])
 def game_list(request):
     if request.method == 'GET':
-        games == Game.objects.all()
+        games = Game.objects.all()
         games_serializer = GameSerializer(games, many=True)
         return Response(games_serializer.data)
     elif request.method == 'POST':
@@ -20,7 +20,7 @@ def game_list(request):
             return Response(game_serializer.data, status=status.HTTP_201_CREATED)
         return Response(game_serializer.errors, status=status.HTTP_400_BAD_REQUEST)
 
-@api_view(['GET', 'PUT', 'POST'])
+@api_view(['GET', 'PUT', 'DELETE'])
 def game_detail(request, pk):
     try:
         game = Game.objects.get(pk=pk)
