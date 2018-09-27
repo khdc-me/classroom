@@ -27,10 +27,10 @@ def game_detail(request, pk):
     except Game.DoesNotExist:
         return Response(status=status.HTTP_404_NOT_FOUND)
     
-    if request.method = 'GET':
+    if request.method == 'GET':
         game_serializer = GameSerializer(game)
         return Response(game_serializer.data)
-    elif request.method = 'PUT':
+    elif request.method == 'PUT':
         game_serializer = GameSerializer(game, data=request.data)
         if game_serializer.is_valid():
             game_serializer.save()
