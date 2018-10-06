@@ -10,3 +10,5 @@ By reading this book, I expect to learn the proper way to build REST APIs. I int
 
 ## NOTES:
 * Book examples use the built-in python's built-in `venv` for creating and managing virtual environments and packages. I've chosen to use pipenv instead.
+
+* Stopped using this book b/c there are errors in the examples and was unable to proceed past the 2nd chapter. Created issues in the code's GH repo but have gotten no responses. Am now working w/ another book.
