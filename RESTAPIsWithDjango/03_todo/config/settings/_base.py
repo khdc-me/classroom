@@ -51,6 +51,7 @@ INSTALLED_APPS = [
     
     # 3rd Pary
     'rest_framework',
+    'corsheaders',
     
     # Default Apps
     'django.contrib.admin',
@@ -62,6 +63,8 @@ INSTALLED_APPS = [
 ]
 
 MIDDLEWARE = [
+    'corsheaders.middleware.CorsMiddleware',
+    'django.middleware.common.CommonMiddleware',
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
