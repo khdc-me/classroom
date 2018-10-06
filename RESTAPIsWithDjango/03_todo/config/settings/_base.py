@@ -49,6 +49,9 @@ INSTALLED_APPS = [
     # My Apps
     'todo.todos',
     
+    # 3rd Pary
+    'rest_framework',
+    
     # Default Apps
     'django.contrib.admin',
     'django.contrib.auth',
