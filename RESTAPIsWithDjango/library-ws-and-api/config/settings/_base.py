@@ -46,14 +46,20 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    # My Apps
+    'library_ws.books',
+    'library_ws.api',
+    
+    # 3rd Pary Apps
+    'rest_framework',
+    
+    # Default Apps
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    # My Apps
-    'library_ws.books',
 ]
 
 MIDDLEWARE = [
