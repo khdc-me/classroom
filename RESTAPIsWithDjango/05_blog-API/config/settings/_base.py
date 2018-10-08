@@ -49,7 +49,10 @@ INSTALLED_APPS = [
     # My Apps
     'blog_project.posts',
     
-    # Default
+    # 3rd Pary Apps
+    'rest_framework',
+    
+    # Default Apps
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
