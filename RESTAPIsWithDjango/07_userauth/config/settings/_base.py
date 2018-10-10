@@ -52,6 +52,7 @@ INSTALLED_APPS = [
     # 3rd Pary Apps
     'rest_framework',
     'rest_framework.authtoken',
+    'rest_auth',
     
     # Default Apps
     'django.contrib.admin',
