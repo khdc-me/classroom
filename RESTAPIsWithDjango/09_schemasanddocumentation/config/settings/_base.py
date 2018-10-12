@@ -52,11 +52,13 @@ INSTALLED_APPS = [
     # 3rd Pary Apps
     'rest_framework',
     'rest_framework.authtoken',
+    'rest_framework_swagger',
     'rest_auth',
     'rest_auth.registration',
     'allauth',
     'allauth.account',
     'allauth.socialaccount',
+    
     
     # Default Apps
     'django.contrib.admin',
@@ -152,3 +154,8 @@ STATIC_URL = '/static/'
 EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 
 SITE_ID = 1
+
+SWAGGER_SETTINGS = {
+    'LOGIN_URL': 'rest_framework:login',
+    'LOGOUT_URL': 'rest_framework:logout',
+}
