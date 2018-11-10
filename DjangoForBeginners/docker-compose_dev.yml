@@ -17,7 +17,7 @@ services:
       context: ./nginx/
       dockerfile: Dockerfile_dev
     volumes:
-      - ./website/static:/usr/src/app/mb_project/static/
+      - ./mb_project/static:/usr/src/app/mb_project/static/
     ports:
       - "80:80"
     depends_on:
