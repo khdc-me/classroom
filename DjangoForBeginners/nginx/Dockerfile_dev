@@ -1,0 +1,4 @@
+FROM nginx:1.15.6-alpine
+
+RUN rm /etc/nginx/conf.d/default.conf
+COPY sites-enabled/nginx-conf_dev /etc/nginx/conf.d/default.conf
