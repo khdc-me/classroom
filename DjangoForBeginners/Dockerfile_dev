@@ -5,14 +5,13 @@ RUN pip install pipenv
 ENV PYTHONUNBUFFERED=1\
     DJANGO_SETTINGS_MODULE=config.settings._dev
 
-RUN mkdir -p /usr/src/app/mb_project
-WORKDIR /usr/src/app/mb_project
+WORKDIR /usr/src/app/
 
-COPY Pipfile /usr/src/app/mb_project
-COPY Pipfile.lock /usr/src/app/mb_project
+COPY Pipfile /usr/src/app/
+COPY Pipfile.lock /usr/src/app/
 
 RUN pipenv install --system
-COPY . /usr/src/app/mb_project
+COPY . /usr/src/app/
 
 RUN python manage.py collectstatic --no-input
 CMD ["python", "manage.py", "runserver", "0.0.0.0:8000"]
