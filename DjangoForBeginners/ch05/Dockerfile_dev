@@ -14,5 +14,8 @@ RUN pipenv install --system
 COPY . /usr/src/app/
 
 RUN python manage.py collectstatic --no-input
+RUN python manage.py makemigrations blog
+RUN python manage.py migrate blog
+
 CMD ["python", "manage.py", "runserver", "0.0.0.0:8000"]
 
