@@ -6,13 +6,22 @@ services:
     build:
       context: .
       dockerfile: Dockerfile_dev
+    volumes:
+      - static-volume:/usr/src/app/blog_project/static/
+    expose:
+      - 8000
 
   nginx:
     restart: always
     build:
       context: ./nginx/
       dockerfile: Dockerfile_dev
+    volumes:
+      - static-volume:/usr/share/nginx/html/static/
     ports:
       - "80:80"
     depends_on:
       - web
+
+volumes:
+  static-volume:
