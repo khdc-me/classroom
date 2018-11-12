@@ -6,8 +6,8 @@ services:
     build:
       context: .
       dockerfile: Dockerfile_dev
-    volumes:
-      - .:/usr/src/app/
+    # volumes:
+    #  - .:/usr/src/app/
     expose:
       - 8000
 
@@ -16,8 +16,8 @@ services:
     build:
       context: ./nginx/
       dockerfile: Dockerfile_dev
-    volumes:
-      - ./mb_project/static:/usr/src/app/mb_project/static/
+    # volumes:
+    #  - ./mb_project/static:/usr/src/app/mb_project/static/
     ports:
       - "80:80"
     depends_on:

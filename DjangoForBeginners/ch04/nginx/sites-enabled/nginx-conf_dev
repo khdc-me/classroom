@@ -3,7 +3,7 @@ server {
     charset utf-8;
 
     location /static/ {
-        alias /usr/src/app/mb_project/static/;
+        alias /usr/src/app/mb_project/;
     }
 
     location / {
