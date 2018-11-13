@@ -1,0 +1,18 @@
+<html>
+  <head>
+    <title>Django Blog</title>
+    <meta content="">
+    <style></style>
+  </head>
+  <body>
+    <header>
+      <h1><a href="/blog/">Django Blog</a></h1>
+    </header>
+    <div class="container">
+      {% block content %}
+      {% endblock content %}
+
+      <a href="{% url 'post_new' %}'>+ New Blog Post</a>
+    </div>
+  </body>
+</html>
