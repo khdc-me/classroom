@@ -6,5 +6,4 @@ if ($mysqli->connect_error){
 	echo 'Connection error: [', $mysqli->connect_errno, ']: ', $mysqli->connect_error;
 } else {
 	echo "Connected Successfully to MYSQL container";
-}
 ?>
