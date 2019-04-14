@@ -9,4 +9,4 @@ Publisher: O'Reilly
 # Goal
 It's been a couple of yrs since I last dabbled in PHP. Trying to keep current w/ this popular web stack.
 
-I will be incorporating Docker containerization technology into the projects to add more modern elements.
+I will be incorporating Docker containerization technology into the projects to add more modern elements (and some complexity).
