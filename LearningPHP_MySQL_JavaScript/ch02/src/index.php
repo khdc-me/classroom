@@ -7,4 +7,6 @@ if ($mysqli->connect_error){
 } else {
 	echo "Connected Successfully to MYSQL container";
 }
+
+echo "<br><br>This is an echo"
 ?>
