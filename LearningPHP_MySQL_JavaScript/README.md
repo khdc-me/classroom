@@ -7,6 +7,4 @@ Publisher: O'Reilly
 [Get the book](https://www.amazon.com/Learning-PHP-MySQL-JavaScript-Javascript-ebook/dp/B07CZ4W8X2/) on Amazon
 
 # Goal
-It's been a couple of yrs since I last dabbled in PHP. Trying to keep current w/ this popular web stack.
-
-I will be incorporating Docker containerization technology into the projects to add more modern elements (and some complexity).
+Get reacquanted with this popular web stack while incorporating Docker containerization technology into the projects, introducing more modern, realistic, and complex elements.

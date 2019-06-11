@@ -1,6 +1,7 @@
 # Web Development with Django Cookbook - 2nd Edition
 
-## What I expect to get out of this book
-Having recently contributed to the [PySlackers Website](https://pyslackers.com) via GitHub, I had the opportunity to see how professionals set up and organize their web stack. It was a window into how others integrate Django with multiple databases, caching, automation, virtualization, docker, front-end frameworks, json, etc.
+## Goal
+Learn Django -- specifically looking for an explain as to why things are organized as they are and how things are tied together.
 
-I am hoping that this book will fill in the gaps and explain why things are organized as they are and various scripts are tied together. I will be posting notes, exercises, and solutions in this repo, as I go through this book.
+## Notes
+- Book is a couple of yrs old and uses Django 1.8 w/ Python 2.7 & 3.4. It was a good read and good for seeing how the recipes were implemented but didn't really teach me Django.
