@@ -1,4 +1,4 @@
 # Classroom
-Collection of solutions to book and tutorial exercises.
+Collection of notes, and solutions to book and tutorial exercises.
 
-Essentially a bunch of small, fairly useless projects I’ve built while learning/exploring something new.
+Notes and lots of small, fairly basic projects I’ve built while learning/exploring something new.
