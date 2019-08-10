@@ -13,3 +13,6 @@ Created "wordpress" folder
 
 Extracted WP tar.gz files into "wordpress" folder
 
+Created "mysql" folder
+
+Added Dockerfile inside of "mysql" folder to build a mysql container (latest version at time of writing is 8.0.17)
