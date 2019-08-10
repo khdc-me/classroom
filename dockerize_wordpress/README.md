@@ -16,3 +16,8 @@ Extracted WP tar.gz files into "wordpress" folder
 Created "mysql" folder
 
 Added Dockerfile inside of "mysql" folder to build a mysql container (latest version at time of writing is 8.0.17)
+> [Official mysql docker image](https://hub.docker.com/_/mysql/)
+
+Created "apache" folder
+
+Added Dockerfile inside of "apache" folder to build a php+apache container (latest non-rc/beta version at time of writing is 7.1.31-apache-stretch)
