@@ -9,3 +9,7 @@ Will use Nginx and MySQL docker containers but will download the latest version 
 ##Steps
 From host, download [latest WordPress](https://wordpress.org/latest.tar.gz) (at the time of this writing v5.2.2)
 
+Created "wordpress" folder
+
+Extracted WP tar.gz files into "wordpress" folder
+
