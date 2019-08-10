@@ -21,3 +21,5 @@ Added Dockerfile inside of "mysql" folder to build a mysql container (latest ver
 Created "apache" folder
 
 Added Dockerfile inside of "apache" folder to build a php+apache container (latest non-rc/beta version at time of writing is 7.1.31-apache-stretch)
+
+Created docker-compose.yml file at project root

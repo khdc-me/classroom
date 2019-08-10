@@ -1,0 +1,19 @@
+version: '3'
+
+services:
+  mysql:
+    restart: always
+    build: ./mysql
+    command: --default-authentication-plugin=mysql_native_password
+    expose:
+      - 3306
+
+  apache:
+    restart: always
+    build: ./apache
+    volumes:
+      - ./wordpress:/var/www/html/
+    ports:
+      - "80:80"
+    depends_on:
+      - mysql
