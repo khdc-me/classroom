@@ -1,5 +1,5 @@
 # base.txt
-Django==1.8.18
+Django==1.11.29
 djangorestframework
 - e git://github.com/omab/python-social-auth.git@6b1e301c79#egg=python-social-auth
 psycopg2==2.7.3.2
