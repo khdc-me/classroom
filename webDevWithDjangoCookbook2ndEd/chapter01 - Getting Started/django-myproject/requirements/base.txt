@@ -3,4 +3,4 @@ Django==1.8.18
 djangorestframework
 - e git://github.com/omab/python-social-auth.git@6b1e301c79#egg=python-social-auth
 psycopg2==2.7.3.2
-Pillow==5.0.0
+Pillow==9.3.0
